@@ -1,3 +1,7 @@
+/*
+    --fontimagem: 'Amatic SC', cursive;
+    --fontpadrao: Arial, Helvetica, sans-serif;
+*/
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 *{
@@ -5,7 +9,39 @@
     padding: 0;
 }
 
-/*
-    --fontimagem: 'Amatic SC', cursive;
-    --font
- */
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-image: linear-gradient(45deg, #A4ADBF 10%, #5A758C 60%, #012840 30%);
+}
+
+.container{
+    width: 80vw;
+    height: 70vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.conteudo-img{
+    width: 100%;
+    height: 35%;
+    background: url(../img/motanha-p.png) left top no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.conteudo-form{
+    width: 100%;
+    height: 65%;
+    background-color: blue;
+    border-radius: 0px 0px 5px 5px;
+
+}
