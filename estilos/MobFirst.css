@@ -50,7 +50,7 @@ body{
 .texto-img{
     position: absolute;
     left: 50%;
-    top: 4%;
+    top: 3.5%;
     transform: translate(-50%);
     font-family: var(--fontimagem);
     font-size: 1.5em;
