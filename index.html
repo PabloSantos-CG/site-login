@@ -12,11 +12,43 @@
 <body>
     <main>
         <div class="container">
-            <div class="conteudo-img">
-                
-            </div>
-            <div class="conteudo-form">
 
+            <div class="conteudo-img">
+                <span class="texto-img">Seja Bem-Vindo!</span>
+            </div>
+
+            <div class="conteudo-form">
+                <h1>Login</h1>
+
+                <form action="arquivo.php" method="post" name="form">
+
+                    <div class="campo-text">
+                        <label for="iusuario">Usuário</label>
+                        <input type="text" name="usuario" id="iusuario">
+                    </div>
+
+                    <div class="campo-text">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha">
+                    </div>
+
+                    <div>
+                        <p>
+                            <a href="#">Esquecí minha senha</a>
+                        </p>
+                    </div>
+
+                    <div class="caixas-confirmar">
+                        <label for="ilembrar">Relembre-me</label>
+                        <input type="checkbox" name="lembrar" id="ilembrar">
+                        <input type="submit" value="Confirmar">
+                    </div>
+
+                    <div class="registro">
+                        <p>Ainda não possui uma conta? <a href="#">Clique aqui</a></p>
+                    </div>
+
+                </form>
             </div>
         </div>
     </main>
