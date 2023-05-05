@@ -24,6 +24,7 @@
     .conteudo-img{
         background: url(../img/motanha-g.jpg) center no-repeat;
         background-size: cover;
+        
         float: left;
         width: 40%;
         height: 100%;
