@@ -36,7 +36,7 @@ body{
     transform: translate(-50%, -50%);
     background-color: #ffffff;
     border-radius: 0px 30px 0px 30px;
-    box-shadow: 0px 0px 10px 5px #0000006c;
+    box-shadow: 0px 0px 10px 5px #0000006d;
     overflow: hidden;
     transition-timing-function: ease;
     transition: width .3s, height .3s;
@@ -52,9 +52,9 @@ body{
 
 .texto-img{
     position: absolute;
-    left: 50%;
     top: 3.5%;
-    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
     font-family: var(--fontimagem);
     font-size: 1.5em;
     color: var(--colornulo);
