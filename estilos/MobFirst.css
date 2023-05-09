@@ -71,7 +71,7 @@ body{
     height: 65%;
 }
 
-h1{
+.conteudo-form > h1{
     text-align: center;
     margin-top: 5px;
     font-weight: lighter;
